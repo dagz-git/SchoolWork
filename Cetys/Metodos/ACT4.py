@@ -44,6 +44,7 @@ def LU(A, B):
 
     print(x, y, z, '\n')
 
-
+print("2 a")
 LU(A1, B1)
+print("2 b")
 LU(A2, B2)
