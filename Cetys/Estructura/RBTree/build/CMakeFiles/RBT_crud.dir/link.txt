@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/RBT_crud.dir/test/RBT_crud.cpp.o  -o outest/RBT_crud  -L/home/alejandro/Downloads/nagger/build -Wl,-rpath,/home/alejandro/Downloads/nagger/build -lboost_unit_test_framework -lhelper 

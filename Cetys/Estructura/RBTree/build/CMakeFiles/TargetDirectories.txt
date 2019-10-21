@@ -1,0 +1,6 @@
+/home/alejandro/Downloads/nagger/build/CMakeFiles/rebuild_cache.dir
+/home/alejandro/Downloads/nagger/build/CMakeFiles/edit_cache.dir
+/home/alejandro/Downloads/nagger/build/CMakeFiles/test.dir
+/home/alejandro/Downloads/nagger/build/CMakeFiles/trees.dir
+/home/alejandro/Downloads/nagger/build/CMakeFiles/helper.dir
+/home/alejandro/Downloads/nagger/build/CMakeFiles/RBT_crud.dir

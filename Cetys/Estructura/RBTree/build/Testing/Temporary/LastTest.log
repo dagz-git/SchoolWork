@@ -1,0 +1,21 @@
+Start testing: Oct 15 19:49 PDT
+----------------------------------------------------------
+1/1 Testing: RBT_crud
+1/1 Test: RBT_crud
+Command: "/home/alejandro/Downloads/nagger/build/outest/RBT_crud"
+Directory: /home/alejandro/Downloads/nagger/build/outest
+"RBT_crud" start time: Oct 15 19:49 PDT
+Output:
+----------------------------------------------------------
+Running 1 test case...
+
+*** No errors detected
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RBT_crud" end time: Oct 15 19:49 PDT
+"RBT_crud" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 15 19:49 PDT

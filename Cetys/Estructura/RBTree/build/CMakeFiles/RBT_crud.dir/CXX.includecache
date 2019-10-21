@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/color.h
+
+../include/rbnode.hpp
+color.h
+-
+
+../include/rbtree.hpp
+rbnode.hpp
+-
+
+/home/alejandro/Downloads/nagger/test/RBT_crud.cpp
+boost/test/unit_test.hpp
+-
+boost/mpl/list.hpp
+-
+iostream
+-
+rbtree.hpp
+-
+

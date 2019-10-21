@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/trees.dir/src/main.cpp.o  -o trees 

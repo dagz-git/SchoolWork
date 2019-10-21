@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/color.h
+
+../include/rbnode.hpp
+color.h
+-
+
+../include/rbtree.hpp
+rbnode.hpp
+-
+
+/home/alejandro/Downloads/nagger/src/main.cpp
+iostream
+-
+string
+-
+queue
+-
+rbtree.hpp
+-
+rbnode.hpp
+-
+color.h
+-
+iostream
+-
+string
+-
+
