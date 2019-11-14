@@ -1,2 +1,0 @@
-# SchoolWork
-HW / Projetcs
