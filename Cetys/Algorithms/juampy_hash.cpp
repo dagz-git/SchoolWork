@@ -30,17 +30,15 @@ uint64_t division(int m, uint64_t k){
 
 uint64_t criterio_multiplicacion(uint64_t llave)
 {
-    long a =  0;
-    long w = 34359738368; //2
-    long m = 0;
+    long a = 95373766262;//big number
+    long w = 34359738368; //2 close
+    long m = 14273320331;//prime 2^n-1
     return (a * llave) >> (w - m);
-
 }
 
 uint64_t fibo(uint64_t k ){
     float phi = (5/3);
     uint64_t b = pow(2,32);
-
 }
  
 int main(){
