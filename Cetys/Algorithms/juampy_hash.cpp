@@ -1,8 +1,7 @@
 #include<iostream> 
 #include<string> 
+#include<cmath> 
 using namespace std;
-
-
 
 int juampy_hash(string s){
     int k = 69;
@@ -31,16 +30,19 @@ uint64_t division(int m, uint64_t k){
 
 uint64_t criterio_multiplicacion(uint64_t llave)
 {
-    int a =  99371;
-    int b = 5303;
-    int c = 121151;
-    return (a * llave) >> (c - b);
+    long a =  0;
+    long w = 34359738368; //2
+    long m = 0;
+    return (a * llave) >> (w - m);
+
+}
+
+uint64_t fibo(uint64_t k ){
+    float phi = (5/3);
+    uint64_t b = pow(2,32);
+
 }
  
-
-
-
-
 int main(){
     uint64_t sum = 0;
     string str = "hrub";
@@ -53,5 +55,3 @@ int main(){
     cout << division(prime ,sum);
     return 0;
 }
-
-
