@@ -24,7 +24,7 @@ uint64_t horner(int poly[], int n, int x)
     return result; 
 } 
 
-uint64_t division(int m, uint64_t k){
+uint64_t division(uint64_t m, uint64_t k){
     return k % m;
 }
 
@@ -39,17 +39,21 @@ uint64_t criterio_multiplicacion(uint64_t llave)
 uint64_t fibo(uint64_t k ){
     float phi = (5/3);
     uint64_t b = pow(2,32);
+    return k * (b/phi);
+
 }
  
 int main(){
     uint64_t sum = 0;
-    string str = "hrub";
+    string str = "bruh";
     int arr[str.length()];
     int prime = 221;
     for (int i = 0; i < str.length(); i++) { arr[i] = (int)str[i]; }
-    sum = horner(arr, str.length(), 128);
+    sum = horner(arr, str.length(), 1124);
+    sum = division(2389723894, sum);
     sum = criterio_multiplicacion(sum);
+    sum = fibo(sum);
     cout << str << "  " << sum << '\n';
-    cout << division(prime ,sum);
+    //cout << division(prime ,sum);
     return 0;
 }
