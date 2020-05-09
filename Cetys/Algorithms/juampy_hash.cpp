@@ -29,22 +29,28 @@ uint64_t division(int m, uint64_t k){
     return k % m;
 }
 
+uint64_t criterio_multiplicacion(uint64_t llave)
+{
+    int a =  99371;
+    int b = 5303;
+    int c = 121151;
+    return (a * llave) >> (c - b);
+}
+ 
+
+
+
 
 int main(){
     uint64_t sum = 0;
-    string str = "CLRS";
+    string str = "hrub";
     int arr[str.length()];
-    
-    for (int i = 0; i < str.length(); i++)
-    {
-        arr[i] = (int)str[i];
-    }
-    
-    
+    int prime = 221;
+    for (int i = 0; i < str.length(); i++) { arr[i] = (int)str[i]; }
     sum = horner(arr, str.length(), 128);
-
+    sum = criterio_multiplicacion(sum);
     cout << str << "  " << sum << '\n';
-    cout << division(7,sum);
+    cout << division(prime ,sum);
     return 0;
 }
 
