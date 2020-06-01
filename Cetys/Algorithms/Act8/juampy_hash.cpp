@@ -17,6 +17,9 @@ int juampy_hash(string s){
 
 uint64_t horner(int poly[], int n, int x) 
 { 
+    if(n ==1){
+        return n+666666;
+    }
     uint64_t result = poly[0];
     for (int i=1; i<n; i++) 
         result = (result*x )+ poly[i]; 
@@ -38,22 +41,19 @@ uint64_t criterio_multiplicacion(uint64_t llave)
 
 uint64_t fibo(uint64_t k ){
     float phi = (5/3);
-    uint64_t b = pow(2,32);
-    return k * (b/phi);
+    uint64_t b = pow(2,43);
+    uint64_t x = (b/phi);
+    return (k * x) >> 16;
 
 }
  
 int main(){
     uint64_t sum = 0;
-    string str = "bruh";
+    string str = "p";
     int arr[str.length()];
-    int prime = 221;
+    int prime = 2389723894;
     for (int i = 0; i < str.length(); i++) { arr[i] = (int)str[i]; }
-    sum = horner(arr, str.length(), 1124);
-    sum = division(2389723894, sum);
-    sum = criterio_multiplicacion(sum);
-    sum = fibo(sum);
+    sum = fibo(criterio_multiplicacion(division(prime, horner(arr, str.length(), 1124))));
     cout << str << "  " << sum << '\n';
-    //cout << division(prime ,sum);
     return 0;
 }
